@@ -115,13 +115,13 @@ var score=0;
 //   red.scale = 0.1;
 // }
 
-// function redBalloon() {
-//   var red = createSprite(0, 10, Math.round(random(20, 370)) , 10);
-//   red.addImage(red_balloonImage);
-//   red.velocityX = 3;
-//   red.lifetime = 150;
-//   red.scale = 0.1;
-// }
+function redBalloon() {
+  var red = createSprite(0, 10, Math.round(random(20, 370)) , 10);
+  red.addImage(red_balloonImage);
+  red.velocityX = 3;
+  red.lifetime = 150;
+  red.scale = 0.1;
+}
 
 function blueBalloon() {
   var blue = createSprite(0,Math.round(random(20, 370)), 10, 10);
